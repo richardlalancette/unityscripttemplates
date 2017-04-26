@@ -2,10 +2,12 @@
 using UnityEditor;
 using NUnit.Framework;
 
-public class #SCRIPTNAME# {
+public class #SCRIPTNAME# 
+{
 
 	[Test]
-	public void EditorTest() {
+	public void EditorTest() 
+	{
 		//Arrange
 		var gameObject = new GameObject();
 

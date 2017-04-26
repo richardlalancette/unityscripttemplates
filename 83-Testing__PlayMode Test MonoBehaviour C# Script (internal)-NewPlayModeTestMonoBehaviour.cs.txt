@@ -3,9 +3,11 @@ using UnityEngine.PlaymodeTests;
 using UnityEngine.Assertions;
 
 [PlayModeTest]
-public class #SCRIPTNAME# : MonoBehaviour {
+public class #SCRIPTNAME# : MonoBehaviour 
+{
 
-	void FixedUpdate () {
+	void FixedUpdate () 
+	{
 		//Use the Assert class to test conditions.
 		//Then call Playmode.Pass to communicate the test has finished.
 		PlaymodeTest.Pass();

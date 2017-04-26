@@ -1,0 +1,20 @@
+﻿using UnityEngine;
+using UnityEngine.PlaymodeTests;
+using UnityEngine.Assertions;
+using System.Collections;
+
+[PlayModeTest]
+public class #SCRIPTNAME# {
+
+	[PlayModeTest]
+	public void #SCRIPTNAME#SimplePasses() {
+		// Use the Assert class to test conditions.
+	}
+
+	[PlayModeTest]
+	public IEnumerator #SCRIPTNAME#WithEnumeratorPasses()	{
+		// Use the Assert class to test conditions.
+		// yield to skip a frame
+		yield return null;
+	}
+}
